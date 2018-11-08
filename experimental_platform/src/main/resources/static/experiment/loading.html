@@ -1,0 +1,29 @@
+<!--<html>-->
+	<!--<body>-->
+		<!--<img src="img/Sunset.jpg" width="100%" height="90%" />-->
+		<!--<script>-->
+			<!--window.location.href="http://192.168.1.101:6080/vnc.html";-->
+			<!--//alert(document.body.scrollWidth);//网页正文全文宽-->
+			<!--//alert(document.body.scrollHeight);//网页正文全文高-->
+			<!--//self.parent.frames["experimentalDoc"].location.href="aaa.html";-->
+		<!--</script>-->
+	<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Basic Embedding Gate One</title>
+	<!--<script src="http://10.10.44.120:8000/static/gateone.js"></script>-->
+	<!--<script>-->
+        <!--window.onload = function() {-->
+            <!--// Initialize Gate One:-->
+            <!--GateOne.init({url: 'http://10.10.44.120:8000'});-->
+        <!--}-->
+	<!--</script>-->
+</head>
+<body>
+<!-- Decide where you want to put Gate One -->
+<embed id="gateone_container" style="position: relative; width: 100%; height: 40em;" src="http://10.10.44.120:8000/?ssh=ssh://root@192.168.2.35:10022"></embed>
+</body>
+</html>

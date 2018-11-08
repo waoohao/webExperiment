@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/wui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/wui-date.js" charset="utf-8"></script>
+
+    <title>Title</title>
+</head>
+<body>
+    <wui-date
+            format="yyyy-mm-dd"
+            placeholder="请选择或输入日期"
+            id="date1"
+            btns="{'ok':'确定','now':'此刻'}"
+            ng-model="date1"
+    ></wui-date>
+
+
+
+<script type="text/javascript">
+    var app = angular.module('app',["wui.date"]);
+</script>
+
+</body>
+</html>
